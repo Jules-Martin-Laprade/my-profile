@@ -1,0 +1,85 @@
+body{
+  background-color:lightgrey ;
+  color: black;
+  font-family: courrier;
+  font-size: 17px;
+}
+h1{
+  color: darkblue;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;;
+}
+h2{
+  color: darkblue;
+}
+a {
+  text-decoration: none;
+}
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 760px){
+  .container{
+    width: 600px;
+  }
+}
+@media (max-width: 500px){
+  .container{
+    width: 400px;
+  }
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-cercle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: darkblue;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-white {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  color: darkblue;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i {
+  font-size: 60px;
+  color: darkblue;
+}
+.list-inline i:hover {
+  color: purple;
+}
+#scolarity {
+  margin-bottom: 40px;
+  line-height: 60px;
+}
+.list-inline btn-blue:hover {
+  color: purple;
+}
